@@ -4,7 +4,8 @@ apply plugin: 'io.objectbox'
 android {
     compileSdkVersion 27
     defaultConfig {
-        applicationId "com.example.dabutaizha.lines"
+        //applicationId "com.example.dabutaizha.lines"
+        applicationId "cn.suibiankan.www"
         minSdkVersion 21
         targetSdkVersion 27
         versionCode 21
@@ -23,7 +24,6 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
-    buildToolsVersion '26.0.3'
 }
 
 dependencies {
